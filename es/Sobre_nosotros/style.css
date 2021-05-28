@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Poiret+One&display=swap');
+html{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+/*
+Fuentes
+
+font-family: 'Lemonada', cursive;
+font-family: 'Poiret One', cursive;
+*/
+
+/*Reutilizable*/
+.container{
+	width: 900px;
+	margin: auto;
+}
+.clearfix{
+	clear: both;
+}
+.media_caja_izquierda{
+	width: 650px;
+	float: left;
+	margin-top: 20px;
+}
+#menu_idiomas{
+	width: 150px;
+	text-align: center;
+	display: inline-block;
+	padding: 0px 0px;
+	margin: 15px 0px;
+}
+#menu_idiomas div{
+	margin: 20px 0px;
+}
+#menu_idiomas a{
+	text-decoration: none;
+	padding: 5px;
+	color: lightblue;
+	background-color: black;
+	border-radius:40px; 
+	margin: 2px 2px;
+
+	box-sizing: border-box;
+}
+.media_caja_derecha{
+	width: 650px;
+	float: right;
+	margin-left: 20px;
+}
+/*Página*/
+/*Cabecera*/
+#a{
+	border-bottom: 1px solid black;
+	padding: 0px;
+}
+.img_logo{
+	float: left;
+}
+.img_logo img{
+	width: 150px;
+	margin: 20px;
+}
+#languages{
+	margin: 10px 3px;
+	float: left;
+}
+#menu_m{
+	float: right;
+	margin: 40px 20px;
+}
+#menu_m a{
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+
+	box-sizing: border-box;
+}
+#menu_m a:hover{
+	font-weight: bold;
+}
+.language ul {
+		display: flex;
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+
+		position: absolute;
+	}
+	.language a {
+		display: block;
+		padding: 2em;
+		background-color: white;
+		text-decoration: none;
+		color: black;
+
+	}
+	.language a:hover {
+		background-color: lightgrey;
+	}
+	.language ul li ul {
+		display: none;
+	}
+	.language ul li a:hover + ul, .language ul li ul:hover {
+		display: block;
+	}
+/*Fin cabecera*/
+/*Cuerpo de la página*/
+p{
+	text-align: justify;
+}
+.img1{
+	float: right;
+	width: 400px;
+	margin: 0px 0px 0px 30px; 
+}
+.img1 img{
+	width: 400px;
+}
+.derecha{
+	width: 500px;
+	float: right;
+	text-align: right;
+}
+.text1{
+	width: 390px;
+}
+.derecha p{
+	width: 390px;
+	float: right;
+}
+.left{
+	float: left;
+	width: 501px;
+}
+.left p{
+	width: 350px;
+}
+.img2{
+	width: 400px;
+}
+.img2 img{
+	width: 400px;
+	float: left;
+	margin: 107px 0px 0px 0px;
+}
+.img3{
+	width: 399px;
+	float: right;
+}
+.img3 img{
+	width: 400px;
+	margin: 100px 0px 0px 0px;
+}
+/*Fin de la página*/
+/*Pie de página*/
+footer{
+	background-color: black;
+	height: 160px;
+}
+.caja_footer{
+	width: 400px;
+	font-family: 'Lemonada', cursive;
+	font-size: 0.70em;
+	color: white;
+	text-align: center;
+	float: left;
+}
+#social_footer{
+	font-size: 2em;
+	margin: 40px;
+}
+#social_footer a{
+	color:white;	
+}
+#social_footer a:hover{
+	color:cyan;	
+}
+#social_footer span{
+	padding: 20px;	
+}
+#contact_footer{
+	font-size: 0.5em;
+	text-align: right;
+}
+#copyright h1{
+	padding-top: 50px;
+}
+#copyright span:hover{
+	color:cyan;
+}
